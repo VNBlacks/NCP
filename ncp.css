@@ -1,0 +1,71 @@
+
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the container elements */
+.imgcontainer,
+.container,
+.container[style="background-color:#f1f1f1"] {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Styles for the form element and its children */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button[type="submit"],
+button[type="button"] {
+    background-color: #4CAF50;
+    /* Green color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+    /* Hover effect */
+    background-color: #3e8e41;
+    /* Darker green color */
+}
+
+input[type="checkbox"] {
+    /* Styles for the checkbox */
+    margin-right: 5px;
+    /* Add some space between the checkbox and the label */
+}
+
+label[for="remember"] {
+    /* Styles for the "Remember me" label */
+    display: inline-block;
+    /* Display the label as an inline block */
+}
+
+span.psw a {
+    /* Styles for the "Forgot password?" link */
+    color: #4CAF50;
+    /* Green color */
+    /* Use the same color as the login button */
+}
+
+```
